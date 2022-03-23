@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.content-wrap {
+    margin: 0 auto;
+    max-width: 80%;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding: 16px 10%;
+}
+
+.header-logo {
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.hero-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding: 100px 10%;
+    gap: 48px;
+}
+
+.hero-left {
+    display: flex;
+    flex-direction: column;
+}
+
+.hero-text {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.hero-caption {
+    margin-bottom: 8px;
+}
+
+.hero-button {
+    background-color: #3882F6;
+    font-weight: bold;
+    padding: 8px 32px;
+    border-radius: 8px;
+    align-self: flex-start;
+}
+  
+.hero-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+    width: 500px;
+    height: 200px;
+    flex-shrink: 0;
+}
+
+.card-section {
+    text-align: center;
+    padding: 48px 10%;
+}
+
+.title {
+    font-size: 36px;
+    font-weight: 900;
+    margin-bottom: 48px;
+}
+
+.card-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 64px;
+    margin-bottom: 48px;
+}
+
+.card {
+    max-width: 200px;
+}
+
+.card-image {
+    height: 200px;
+    width: 200px;
+    border: 5px solid #3882F6;
+    border-radius: 20px;
+}
+
+.card-text {
+    padding: 16px;
+}
+
+.quote-section {
+    background-color: #E5E7EB;
+    color: #1F2937;
+    padding: 100px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quote-text {
+    width: 800px;
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.quote-author {
+    font-weight: bolder;
+    margin-left: 500px;
+}
+
+.modal-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0;
+}
+
+.modal-panel {
+    background-color: #3882F6;
+    padding: 50px 100px;
+    width: 1000px;
+    color: #F9FAF8;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+
+.modal-header {
+    font-size: large;
+    font-weight: bold;
+}
+
+.modal-button {
+    border: 1px solid white;
+    padding: 5px 30px;
+    border-radius: 5px;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    text-align: center;
+    padding: 25px 0;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    font-size: 18px;
+    gap: 27px;
+}
